@@ -27,7 +27,7 @@ bool test() {
 
 
 int main() {
-	if test() {
+	if (test()) {
 		printf("All test passed.\n");
 	}
 	return 0;
